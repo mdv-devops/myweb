@@ -23,7 +23,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: marinyuk/myweb:<TAG>
+      - image: marinyuk/myweb:latest
         imagePullPolicy: Always
         name: myweb
 
